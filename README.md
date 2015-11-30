@@ -1,4 +1,4 @@
-# react-posts-board
+# react-vk-stuffinder
 
 The simple redux implementation of vk documents search panel.
 
