@@ -1,0 +1,12 @@
+.main-container {
+  background-color: #36D7B7;
+}
+
+.main-container .title {
+  color: white;
+  text-align: center;
+}
+
+.main-container .input-group {
+  margin-bottom: 15px;
+}
