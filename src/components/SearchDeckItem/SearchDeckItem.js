@@ -1,21 +1,10 @@
 import React, {PropTypes, Component} from 'react';
-import BaseComponent from '../BaseComponent';
 import CSSModules from 'react-css-modules';
 import styles from './search-deck-item.css';
 
-class SearchDeckItem extends BaseComponent {
+class SearchDeckItem extends Component {
   constructor(props) {
     super(props);
-  }
-
-  componentWillMount() {
-    this.setState({
-      author: this.props.data.author,
-      title: this.props.data.title,
-      downloadLink: this.props.data.downloadLink,
-      type: this.props.data.type,
-      size: this.props.data.size
-    });
   }
 
   render() {

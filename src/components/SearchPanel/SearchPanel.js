@@ -1,9 +1,8 @@
 import React, {PropTypes, Component} from 'react';
-import BaseComponent from '../BaseComponent';
 import CSSModules from 'react-css-modules';
 import styles from './search-panel.css';
 
-class SearchPanel extends BaseComponent {
+class SearchPanel extends Component {
   constructor(props) {
     super(props);
   }
