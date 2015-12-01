@@ -1,12 +1,12 @@
-.main-container {
+.header {
   background-color: #36D7B7;
 }
 
-.main-container .title {
+.header .title {
   color: white;
   text-align: center;
 }
 
-.main-container .input-group {
+.header .search-panel {
   margin-bottom: 15px;
 }

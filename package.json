@@ -24,6 +24,8 @@
     "express": "^4.13.3",
     "extract-text-webpack-plugin": "^0.9.1",
     "react": "^0.14.0",
+    "react-redux": "^4.0.0",
+    "redux": "^3.0.0",
     "react-css-modules": "^3.6.1",
     "react-dom": "^0.14.0",
     "style-loader": "^0.13.0",

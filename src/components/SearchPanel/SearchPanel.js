@@ -10,10 +10,10 @@ class SearchPanel extends BaseComponent {
 
   render() {
     return (
-      <div styleName="main-container" className="container-fluid">
+      <div styleName="header" className="container-fluid">
         <h2 styleName="title">Stuffinder</h2>
         <div className="row">
-          <div styleName="input-group" className="input-group col-md-offset-4 col-md-4">
+          <div styleName="search-panel" className="input-group col-md-offset-4 col-md-4">
             <input type="text" className="form-control" placeholder="Search..."/>
             <div className="input-group-btn">
               <button type="button" className="btn btn-default">Go!</button>
